@@ -3,11 +3,17 @@ This project demonstrates the use of [Directline-Jabber](https://github.com/jvan
 
 # Prerequisites
 [Visual Studio 2019 (Community Edition)](https://visualstudio.microsoft.com/downloads/)
+
 [Bot Framework v4 SDK Templates for Visual Studio](https://marketplace.visualstudio.com/items?itemName=BotBuilder.botbuilderv4) - v4.4.4 (2019-06-03)
+
 [Bot Framework Emultor](https://github.com/microsoft/BotFramework-Emulator/releases) - v4.4.1
+
 [Azure Subscription](https://azure.microsoft.com/en-in/free/)
+
 [ngrok](https://ngrok.com/download)
+
 [Directline-Jabber](https://github.com/jvanderbiest/directline-jabber/releases) - v1.0.2
+
 [Node.js](https://nodejs.org/en/) - >v10
 
 # Setup Visual Studio Project
@@ -52,6 +58,7 @@ Launch an instance of the bot framework emulator and create a new configuration.
 ![Bot Emulator new configuration](./docs/09-bot-emulator-new-configuration.jpg)
 
 Fill in the same Microsoft AppId and AppPassword. 
+
 ![Bot Emulator configuration](./docs/10-bot-emulator-configuration.jpg)
 
 Start a bot chat conversation and save the transcript.
@@ -75,12 +82,15 @@ You are all set to have directline-jabber run your conversations. Jump to [Run d
 # Testing a deployed bot
 ## Deploying to the cloud
 To get the bot running in the cloud, we will deploy our bot from Visual Studio using an Azure App Service. Right click the project and select `Publish`
+
 ![Publish bot](./docs/16-publish-bot.jpg)
 
 Then use the default settings to publish to a new App Service
 ![Publish app service](./docs/17-publish-app-service.jpg)
 ![Create app service](./docs/18-create-app-service.jpg)
 ![Deployed app service](./docs/19-deployed-app-service.jpg)
+
+
 
 We use this new address as messaging endpoint in our bot channels registration settings on Azure.
 ![Set messaging endpoint](./docs/20-set-messaging-endpoint.jpg)
