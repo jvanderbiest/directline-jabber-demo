@@ -107,6 +107,6 @@ Directline-jabber will go trought the test files and will use your directline ch
 
 
 # Alternative token authentication
-If you want to use a [token endpoint](https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0) for authentication, check out the [implementation here](./blob/master/Controllers/TokenController.cs). Then when you call the endpoint it will generate a token for communication with directline for you.
+If you want to use a [token endpoint](https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0) for authentication, check out the [implementation here](./Controllers/TokenController.cs). Then when you call the endpoint it will generate a token for communication with directline for you.
 
 ![Directline token endpoint](./docs/21-token-endpoint.jpg)
